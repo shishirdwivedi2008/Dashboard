@@ -1,0 +1,12 @@
+{
+  "name": "node-app",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "mysql": "^2.10.2",
+    "node-mysql": "^0.4.2"
+  }
+}

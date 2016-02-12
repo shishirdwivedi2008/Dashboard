@@ -1,0 +1,24 @@
+
+<html>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+<script>
+$.ajax({
+                    url: 'http://localhost/getData',
+                    type: 'GET',
+                    dataType: 'json',
+                    async: true,
+                   
+                    success: function (data) {
+                        //your success code
+                        $(#sample).html(data);
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert("Error: " + thrownError);
+                    }
+                });
+</script>
+<body>
+<p id='sample'> hello world</p>
+</body>
+</html>
